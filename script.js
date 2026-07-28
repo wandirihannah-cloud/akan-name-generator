@@ -72,3 +72,6 @@ form.addEventListener('submit', function (event) {
         alert("Please select a gender.");
         return;
     }
+
+    let birthDate = new Date(year, month - 1, day);
+    let dayName = days[birthDate.getDay()];
