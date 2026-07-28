@@ -98,3 +98,9 @@ form.addEventListener('submit', function (event) {
     }
 
     result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + maleNames[dayNumber] + ".";
+
+    const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    const form = document.getElementById('akanForm');
+    form.addEventListener('submit', function (event) {
+        
