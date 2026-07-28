@@ -27,3 +27,9 @@ const days = [
     'Friday',
     'Saturday'
 ]
+
+const form = document.getElementById('akanForm');
+const result = document.getElementById('result');
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
