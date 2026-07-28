@@ -33,3 +33,17 @@ const result = document.getElementById('result');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const day =
+        Number(document.getElementById('day').value);
+        const month =
+        Number(document.getElementById('month').value);
+        const year =
+        Number(document.getElementById('year').value);
+
+        const gender 
+        = document.querySelector('input[name="gender"]:checked');
+    });
