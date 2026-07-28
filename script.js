@@ -75,3 +75,9 @@ form.addEventListener('submit', function (event) {
 
     let birthDate = new Date(year, month - 1, day);
     let dayName = days[birthDate.getDay()];
+
+    if (gender.value === 'male') {
+        result.innerHTML  = "your akan name is " + maleNames[dayNumber];
+    } else {
+        result.innerHTML  = "your akan name is " + femaleNames[dayNumber];
+    }
