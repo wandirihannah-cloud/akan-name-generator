@@ -96,3 +96,5 @@ form.addEventListener('submit', function (event) {
     } else {
         result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + femaleNames[dayNumber] + ".";
     }
+
+    result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + maleNames[dayNumber] + ".";
