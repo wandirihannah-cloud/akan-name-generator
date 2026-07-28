@@ -81,3 +81,18 @@ form.addEventListener('submit', function (event) {
     } else {
         result.innerHTML  = "your akan name is " + femaleNames[dayNumber];
     }
+
+    if(
+        birthDate.getFullYear() !== year ||
+        birthDate.getMonth() !== month - 1 ||
+        birthDate.getDate() !== day
+    ) {
+        alert("Please enter a valid date.");
+        return;
+    }
+
+    if (gender.value === 'male') {
+        result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + maleNames[dayNumber] + ".";
+    } else {
+        result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + femaleNames[dayNumber] + ".";
+    }
