@@ -1,3 +1,5 @@
+console.log("Javascript is working");
+
 const maleNames = [
     "Kwasi",
     "Kwadwo",
@@ -103,4 +105,3 @@ form.addEventListener('submit', function (event) {
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     const form = document.getElementById('akanForm');
     form.addEventListener('submit', function (event) {
-        
