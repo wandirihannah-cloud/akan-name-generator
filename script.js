@@ -33,22 +33,14 @@ const days = [
 const form = document.getElementById('akanForm');
 const result = document.getElementById('result');
 
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-
     form.addEventListener('submit', function (event) {
         event.preventDefault();
 
-        const day =
-        Number(document.getElementById('day').value);
-        const month =
-        Number(document.getElementById('month').value);
-        const year =
-        Number(document.getElementById('year').value);
+        const day = Number(document.getElementById('day').value);
+const month = Number(document.getElementById('month').value);
+const year = Number(document.getElementById('year').value);
 
-        const gender 
-        = document.querySelector('input[name="gender"]:checked');
-    });
+const gender = document.querySelector('input[name="gender"]:checked');
 
     if (day=="" || month=="" || year=="" ) {
         alert("Please fill in all fields.");
@@ -79,9 +71,11 @@ form.addEventListener('submit', function (event) {
     let dayName = days[birthDate.getDay()];
 
     if (gender.value === 'male') {
-        result.innerHTML  = "your akan name is " + maleNames[dayNumber];
+        result.innerHTML  = "your akan name is " + maleNames[birthDate.
+            getDay()] + " and you were born on a " + dayName + ".";
     } else {
-        result.innerHTML  = "your akan name is " + femaleNames[dayNumber];
+        result.innerHTML  = "your akan name is " + femaleNames[birthDate
+            .getDay()] + " and you were born on a " + dayName + ".";
     }
 
     if(
@@ -94,14 +88,11 @@ form.addEventListener('submit', function (event) {
     }
 
     if (gender.value === 'male') {
-        result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + maleNames[dayNumber] + ".";
+        result.innerHTML = "Your Akan name is " + maleNames[birthDate.
+            getDay()] + " and you were born on a " + dayName + ".";
     } else {
-        result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + femaleNames[dayNumber] + ".";
+        result.innerHTML = "Your Akan name is " + femaleNames[birthDate.
+            getDay()] + " and you were born on a " + dayName + ".";
     }
-
-    result.innerHTML = "You were born on " + days[dayNumber] + ". Your Akan name is " + maleNames[dayNumber] + ".";
-
-    const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    const form = document.getElementById('akanForm');
-    form.addEventListener('submit', function (event) {
+});
+    
