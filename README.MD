@@ -22,3 +22,10 @@ index.html
 README.MD
 script.js
 style.css
+
+## How to use
+1. Open the applicator on your browser.
+2. Enter your birth day, month and year.
+3. Select your gender
+4. Click get your Akan name
+5. Your akan name will be displayed below the page
