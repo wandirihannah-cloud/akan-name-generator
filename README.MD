@@ -37,3 +37,6 @@ style.css
 
 ## Author
 Hannah Wandiri
+
+## Licence
+This project is for educational purposes only.
