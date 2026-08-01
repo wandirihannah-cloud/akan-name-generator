@@ -16,3 +16,9 @@ HTML
 Javascript
 Git
 Github
+
+## Project Structure
+index.html
+README.MD
+script.js
+style.css
