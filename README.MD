@@ -29,3 +29,8 @@ style.css
 3. Select your gender
 4. Click get your Akan name
 5. Your akan name will be displayed below the page
+
+## Future improvements
+-Improve input validation
+-Add more styling and animations
+-Include meaning of the Akan names 
