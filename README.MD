@@ -34,3 +34,6 @@ style.css
 -Improve input validation
 -Add more styling and animations
 -Include meaning of the Akan names 
+
+## Author
+Hannah Wandiri
