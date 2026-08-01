@@ -9,3 +9,10 @@ Calculate the day of the week you were born
 Display the corresponding Akan name.
 Simple and user-friendly interface.
 Responsive design for different screen sizes
+
+## Technologies used
+Vs code
+HTML
+Javascript
+Git
+Github
